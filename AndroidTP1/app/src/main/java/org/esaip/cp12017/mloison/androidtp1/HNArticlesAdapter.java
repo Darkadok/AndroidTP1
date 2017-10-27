@@ -22,6 +22,7 @@ public class HNArticlesAdapter extends RecyclerView.Adapter<HNArticlesAdapter.HN
 
     @Override
     public void onArticlesReceived(List<HNArticle> articles, boolean hasMore) {
+        _articles.clear();
         _articles.addAll(articles);
         notifyDataSetChanged();
     }

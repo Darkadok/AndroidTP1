@@ -9,7 +9,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="524dp" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -17,5 +17,21 @@
         android:layout_height="wrap_content"
         android:indeterminate="true"
         android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="bottom|center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom"
+        android:text="Filter :" />
 
 </FrameLayout>
